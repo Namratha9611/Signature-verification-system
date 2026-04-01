@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Database
+src/database.sqlite
+src/database_records/
+
+# Generated reports
+*.pdf
+
+# Environment
+.env
+venv/
