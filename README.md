@@ -69,9 +69,13 @@ Structural Similarity Index (SSIM) is used to compare two images:
 
 Threshold used:
 ```python
-if score >= 0.82:
-    print("Signature Match")
+SSIM score = 0..1 (converted to 0..100)
+MATCH_THRESHOLD = 82
+if score >= MATCH_THRESHOLD:
+    result = "Signature Match"
+else:
+    result = "Signature Not Match"
 
 
-<img width="1741" height="872" alt="Screenshot (2042)" src="https://github.com/user-attachments/assets/3171821d-938b-4452-8ff5-839f2dcf3ca3" />
+
 
